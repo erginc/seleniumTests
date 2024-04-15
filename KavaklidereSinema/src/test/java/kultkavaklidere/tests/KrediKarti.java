@@ -51,7 +51,7 @@ public class KrediKarti extends BaseTest {
 		
 		return new Object[][] {
 			
-			{"Ergin","Cumalı","aay@gmail.com","5394561234" , "Ergin", "4910050000000006", "1230", "123"}
+			{"Mert","Yıldırım","aay@gmail.com","5394561234" , "Ergin", "4910050000000006", "1230", "123"}
 			};
 	}
 
@@ -103,7 +103,7 @@ public class KrediKarti extends BaseTest {
 	public Object[][] getData_fail(){
 		
 		return new Object[][] {
-			{"Ergin","Cumalı","ergin@hotmail.com","5413216789" , "Ergin", "5168880000000002", "1230", "123"}
+			{"Ali","Yıldız","ec@hotmail.com","5413216789" , "Ali", "5168880000000002", "1230", "123"}
 			
 			};
 	}
