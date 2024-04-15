@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" data-provider-thread-count="3" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Test(failed)">
+    <classes>
+      <class name="kultkavaklidere.tests.End2end">
+        <methods>
+          <include name="kult_order" invocation-numbers="2"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- kultkavaklidere.tests.End2end -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
